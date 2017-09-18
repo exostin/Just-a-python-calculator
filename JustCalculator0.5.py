@@ -6,7 +6,7 @@
 # or do first step and then "phyton pycalc.py"
 import webbrowser
 
-print('Welcome to JustCalculator0.4! :D')
+print('Welcome to JustCalculator0.5! :D')
 
 while True:
     def add(opt1, opt2):
@@ -41,25 +41,30 @@ while True:
     print('Modulo (%)')
     print('Power (^)')
     print('GitHub Respository (Git)')
-    choice = input("Your choice: ")
+    choice = input("Your choice: ").lower()
 
     if choice in op_dict:
-        opt1 = float(input("First number: "))
-        opt2 = float(input("Second number: "))
+        try:
+            opt1 = float(input("First number: "))
+            opt2 = float(input("Second number: "))
+        except ValueError:
+            print("Didn't I said number? :P")
 
         try:
             print('{} {} {} = {}'.format(opt1, choice,
                                          opt2, op_dict[choice](opt1, opt2)))
         except ZeroDivisionError:
             print("Can't divide by zero!")
+        except NameError:
+            pass
 
     elif choice == "Git":
         webbrowser.open("https://github.com/exostin/Just-a-python-calculator")
     else:
         print('Wrong input!')
 
-    exit = input('Do you want to do next calculation? [y/n] ').lower()
-    if exit == 'y' or 'yes' or 'yeah':
+    again = input('Do you want to do next calculation? [y/n] ').lower()
+    if again == 'y':
         continue
     else:
         break
