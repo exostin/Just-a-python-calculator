@@ -48,7 +48,7 @@ while True:
             opt1 = float(input("First number: "))
             opt2 = float(input("Second number: "))
         except ValueError:
-            print("Didn't I said number? :P")
+            print("Didn't I say number? :P")
 
         try:
             print('{} {} {} = {}'.format(opt1, choice,
@@ -58,7 +58,7 @@ while True:
         except NameError:
             pass
 
-    elif choice == "Git":
+    elif choice == "git":
         webbrowser.open("https://github.com/exostin/Just-a-python-calculator")
     else:
         print('Wrong input!')
