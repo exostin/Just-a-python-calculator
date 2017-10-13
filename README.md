@@ -1,2 +1,2 @@
-# Just-a-python-calculator
+# Just a Python Calculator
 Calculator written in Python 3+
