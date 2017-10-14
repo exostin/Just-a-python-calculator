@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # To run it on linux: 1.Open folder with this file in terminal
-# 2.Execute with "python pycalc0.5.py"
+# 2.Execute with "python (name).py"
 import webbrowser
 
 print('Welcome to PyCalculator! :D')
