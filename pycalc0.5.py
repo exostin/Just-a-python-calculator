@@ -4,7 +4,7 @@
 # 2.Execute with "python pycalc0.5.py"
 import webbrowser
 
-print('Welcome to JustCalculator0.5! :D')
+print('Welcome to PyCalculator! :D')
 
 while True:
     def add(opt1, opt2):
