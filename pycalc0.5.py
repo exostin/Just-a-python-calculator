@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 # To run it on linux: 1.Open folder with this file in terminal
-# 2.Make the file executable with: "chmod +x pycalc.py"
-# 3.Execute with: "./pycalc.py"
-# or do first step and then "phyton pycalc.py"
+# 2.Execute with "python pycalc0.5.py"
 import webbrowser
 
 print('Welcome to JustCalculator0.5! :D')
