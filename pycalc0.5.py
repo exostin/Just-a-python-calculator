@@ -58,7 +58,7 @@ GitHub Respository (Git)''')
             pass
 
     elif choice == "git":
-        webbrowser.open("https://github.com/exostin/Just-a-python-calculator")
+        webbrowser.open("https://github.com/exostin/Python-calculator")
     else:
         print('Wrong input!')
 

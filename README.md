@@ -1,2 +1,1 @@
-# Just a Python Calculator
-Calculator written in Python 3+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-grammas-recipe.svg)](http://forthebadge.com)
