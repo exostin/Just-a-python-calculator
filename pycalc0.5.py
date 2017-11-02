@@ -32,13 +32,14 @@ while True:
                '%': modulo,
                '^': power}
 
-    print('Add (+)')
-    print('Subtract (-)')
-    print('Multiply (*)')
-    print('Divide (/)')
-    print('Modulo (%)')
-    print('Power (^)')
-    print('GitHub Respository (Git)')
+    print('''
+Add (+)
+Subtract (-)
+Multiply (*)
+Divide (/)
+Modulo (%)
+Power (^)
+GitHub Respository (Git)''')
     choice = input("Your choice: ").lower()
 
     if choice in op_dict:
