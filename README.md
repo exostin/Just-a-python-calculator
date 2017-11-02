@@ -8,13 +8,13 @@ Currently it has 6 functions:
 5. Exponentiation
 6. Remainder from division
 7. Conversion of: [! soon !]
-1.  [ ] Currency
-2.  [ ] Mass
-3.  [ ] Lenght
-4.  [ ] Temperature
-5.  [ ] Speed
-6.  [ ] Volume
+-      [ ] Currency
+-      [ ] Mass
+-      [ ] Lenght
+-      [ ] Temperature
+-      [ ] Speed
+-      [ ] Volume
 
 To-do:
 - [ ] Graphical interface
-- [ ] 7th feature for calculator
+- [ ] Conversion feature for calculator
