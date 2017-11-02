@@ -22,7 +22,7 @@ while True:
     def modulo(opt1, opt2):
         return opt1 % opt2
 
-    def power(opt1, opt2):
+    def exponent(opt1, opt2):
         return opt1 ** opt2
 
     op_dict = {'+': add,
@@ -30,7 +30,7 @@ while True:
                '*': multiply,
                '/': divide,
                '%': modulo,
-               '^': power}
+               '^': exponent}
 
     print('''
 Add (+)
@@ -38,7 +38,7 @@ Subtract (-)
 Multiply (*)
 Divide (/)
 Modulo (%)
-Power (^)
+Exponent (^)
 GitHub Respository (Git)''')
     choice = input("Your choice: ").lower()
 
