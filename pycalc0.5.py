@@ -40,27 +40,34 @@ Divide (/)
 Modulo (%)
 Exponent (^)
 GitHub Respository (Git)''')
-    choice = input("Your choice: ").lower()
+    while True:
+        choice = input("Your choice: ").lower()
 
-    if choice in op_dict:
-        try:
-            opt1 = float(input("First number: "))
-            opt2 = float(input("Second number: "))
-        except ValueError:
-            print("Didn't I say number? :P")
+        if choice in op_dict:
+            while True:
+                try:
+                    opt1 = float(input("First number: "))
+                    opt2 = float(input("Second number: "))
+                except ValueError:
+                    print("Didn't I say number? :P")
+                    continue
 
-        try:
-            print('{} {} {} = {}'.format(opt1, choice,
-                                         opt2, op_dict[choice](opt1, opt2)))
-        except ZeroDivisionError:
-            print("Can't divide by zero!")
-        except NameError:
-            pass
-
-    elif choice == "git":
-        webbrowser.open("https://github.com/exostin/Python-calculator")
-    else:
-        print('Wrong input!')
+                try:
+                    print('{} {} {} = {}'.format(opt1, choice,
+                                                 opt2, op_dict[choice](opt1, opt2)))
+                except ZeroDivisionError:
+                    print("Can't divide by zero!")
+                    continue
+                except NameError:
+                    pass
+                break
+            break
+        elif choice == "git":
+            webbrowser.open("https://github.com/exostin/Python-calculator")
+            break
+        else:
+            print('Wrong input! Try again.')
+            continue
 
     again = input('Do you want to do next calculation? [y/n] ').lower()
     if again == 'y':
