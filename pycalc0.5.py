@@ -6,32 +6,33 @@ import webbrowser
 
 print('Welcome to PyCalculator! :D')
 
+
+def add(opt1, opt2):
+    return opt1 + opt2
+
+def subtract(opt1, opt2):
+    return opt1 - opt2
+
+def multiply(opt1, opt2):
+    return opt1 * opt2
+
+def divide(opt1, opt2):
+    return opt1 / opt2
+
+def modulo(opt1, opt2):
+    return opt1 % opt2
+
+def exponent(opt1, opt2):
+    return opt1 ** opt2
+
+op_dict = {'+': add,
+            '-': subtract,
+           '*': multiply,
+           '/': divide,
+           '%': modulo,
+           '^': exponent}
+
 while True:
-    def add(opt1, opt2):
-        return opt1 + opt2
-
-    def subtract(opt1, opt2):
-        return opt1 - opt2
-
-    def multiply(opt1, opt2):
-        return opt1 * opt2
-
-    def divide(opt1, opt2):
-        return opt1 / opt2
-
-    def modulo(opt1, opt2):
-        return opt1 % opt2
-
-    def exponent(opt1, opt2):
-        return opt1 ** opt2
-
-    op_dict = {'+': add,
-               '-': subtract,
-               '*': multiply,
-               '/': divide,
-               '%': modulo,
-               '^': exponent}
-
     print('''
 Add (+)
 Subtract (-)
