@@ -5,14 +5,7 @@ Currently it has 6 functions:
 4. Dividing
 5. Exponentiation
 6. Remainder from division
-7. Conversion of: [! soon !]
-- [ ] Currency
-- [ ] Mass
-- [ ] Lenght
-- [ ] Temperature
-- [ ] Speed
-- [ ] Volume
 
 To-do:
-- [ ] Graphical interface
-- [ ] Conversion feature for calculator
+- [ ] Conversion feature for calculator (currency, mass, lenght, temperature, speed, volume)
+- [ ] UI
